@@ -1,13 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
-from requests.utils import requote_uri
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import sys
 import urllib3
 import os
 import csv
 import json
-import traceback
 import re
 urllib3.disable_warnings()
 
